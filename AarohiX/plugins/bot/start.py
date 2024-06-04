@@ -29,13 +29,13 @@ from strings import get_string
 
 """
 ADISA_PICS = [
-"https://graph.org/file/e0c7e04cc0acff425fe5d.jpg",
-"https://graph.org/file/0f256eac6f4a8a053193a.jpg",
-"https://graph.org/file/e3babc6e511746be05204.jpg",
-"https://graph.org/file/323acfeef219c919091ec.jpg",
+"https://telegra.ph/file/faf065e6f231437ddb0c7.jpg",
+"https://telegra.ph/file/d08a9f47092fa91f54f3b.jpg",
+"https://telegra.ph/file/35e597d603805ff589220.jpg",
+"https://telegra.ph/file/d08a9f47092fa91f54f3b.jpg",
 "https://graph.org/file/1f34f63999a5599051b94.jpg",
-"https://graph.org/file/528b50c44cbfedda9c77e.jpg",
-"https://graph.org/file/365b3ab63ccd789f99bb4.jpg"
+"https://telegra.ph/file/d08a9f47092fa91f54f3b.jpg",
+"https://telegra.ph/file/d08a9f47092fa91f54f3b.jpg"
 ]
 
 
@@ -51,7 +51,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = first_page(_)
-            await message.reply_sticker("CAACAgUAAx0CcSyO9gACl7dkQoL0p1vXqcYtCuCHmSyh4Hi1UgACEwgAAonAEVYwaJ0Jkk8L0B4E")
+            await message.reply_sticker("CAACAgUAAx0CeCKgTQABAoTGZl77_qFb_OVgiOLztXjLvCQnWdYAAsMMAAJcY3hWHTHYPRyIy2seBA")
             return await message.reply_photo(
                 photo=config.START_IMG_URL,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
